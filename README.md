@@ -11,7 +11,7 @@ The goal of `packagelist` is to return the code to install the list of packages 
 You can install the development version of `packagelist`
 
 ``` r
-devtools::install_packages("packagelist")
+devtools::install_github("amrrs/packagelist")
 ```
 
 ## Example
