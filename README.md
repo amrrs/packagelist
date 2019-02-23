@@ -18,3 +18,7 @@ devtools::install_github("amrrs/packagelist")
 
 ![packagelist_addin_screenshot](packagelist_addin_screenshot1.png)
 
+## Demo
+![packagelist_addin_gif](packagelist_video.gif)
+
+

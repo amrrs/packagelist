@@ -47,7 +47,7 @@ wrap_it_up <- function(text = "library('tidyverse')"){
 #'   to install the selected packages from existing code. Appears as "Reprex selection"
 #'   in the RStudio Addins menu. Heavy users might want to [create a keyboard
 #'   shortcut](https://support.rstudio.com/hc/en-us/articles/206382178-Customizing-Keyboard-Shortcuts).
-#'
+#' @import rstudioapi
 #' @export
 PkgsToInstall <- function(){
   wrap_it_up(rstudio_selection())
