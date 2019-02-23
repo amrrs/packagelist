@@ -1,0 +1,4 @@
+Name: PkgsToInstall
+Description: Returns Code to Install packages from selection
+Binding: PkgsToInstall
+Interactive: false

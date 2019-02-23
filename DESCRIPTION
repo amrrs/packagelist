@@ -1,0 +1,13 @@
+Package: packagelist
+Type: Package
+Title: Gives Code To Install Packages From Current Code
+Version: 0.1.0
+Author: AbdulMajedRaja RS
+Maintainer: AbdulMajedRaja RS <amrrs.data@gmail.com>
+Description: Given a bunch of `library(pkgname)` lines of code, This addin will
+        give the code which can be used to install those packages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Imports: rstudioapi
