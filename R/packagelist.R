@@ -49,7 +49,6 @@ wrap_it_up <- function(text = "library('tidyverse')"){
 #'   shortcut](https://support.rstudio.com/hc/en-us/articles/206382178-Customizing-Keyboard-Shortcuts).
 #'
 #' @export
-
 PkgsToInstall <- function(){
   wrap_it_up(rstudio_selection())
 }
