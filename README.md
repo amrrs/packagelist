@@ -16,5 +16,5 @@ devtools::install_packages("packagelist")
 
 ## Example
 
-![packagelist_addin_screenshot](packagelist_addin_screenshot.png)
+![packagelist_addin_screenshot](packagelist_addin_screenshot1.png)
 
