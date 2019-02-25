@@ -32,7 +32,7 @@ rstudio_context <- function() {
 wrap_it_up <- function(text = "library('tidyverse')"){
   paste0("install.packages(c('",
          paste(gsub("library|require|\\(|\\)","",
-                    unlist(strsplit(text,"\\n"))),
+                    unlist(strsplit(text,"\\n|\\;"))),
                collapse = "','"),"'))") -> pkg_list
   #rstudioapi::insertText(Inf, pkg_list)
   rstudioapi::sendToConsole(pkg_list, execute = FALSE)
