@@ -1,5 +1,7 @@
 # packagelist
 
+[![Travis build status](https://travis-ci.org/amrrs/packagelist.svg?branch=master)](https://travis-ci.org/amrrs/packagelist)
+
 The goal of `packagelist` is to return the code to install the list of packages used in the current selection
 
 ## Addin 
